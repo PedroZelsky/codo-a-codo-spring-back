@@ -6,13 +6,21 @@ public class Main {
 		// TODO Auto-generated method stub
 		System.out.println("Hola Mundo");
 		
-		Auto miPrimerAuto = new Auto();
+		Auto miPrimerAuto = new Auto(5);
 		
 		miPrimerAuto.mostrarInfo();
 		
 		miPrimerAuto.encender();
 		
+		miPrimerAuto.encender();
+		
 		miPrimerAuto.mostrarInfo();
+		
+		miPrimerAuto.acelerar();
+		miPrimerAuto.acelerar();
+		miPrimerAuto.acelerar();
+		miPrimerAuto.acelerar();
+		miPrimerAuto.acelerar();
 	}
 
 }
